@@ -37,6 +37,32 @@ body {
   margin: 30px 0;
 }
 
+.home .row .left .social {
+  display: inline-block;
+  margin: 10px 20px;
+}
+
+.home .row .left .social li {
+  list-style: none;
+  display: inline-block;
+}
+
+.home .row .left .social li a {
+  color: #662e91;
+  border: 2px solid #662e91;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  margin: 0px 10px;
+}
+
+.home .row .left .social li a .fa {
+  font-size: 20px;
+}
+
 .home .row .right {
   background: url("../img/right.png") no-repeat;
   background-size: cover;
@@ -63,6 +89,7 @@ footer p a:hover {
 
 footer .social {
   margin: 10px 0;
+  text-align: right;
 }
 
 footer .social li {
@@ -72,7 +99,7 @@ footer .social li {
 
 footer .social li a {
   color: #FFF;
-  border: 1px solid #FFF;
+  border: 2px solid #FFF;
   width: 40px;
   height: 40px;
   display: inline-block;
@@ -80,6 +107,10 @@ footer .social li a {
   text-align: center;
   line-height: 40px;
   margin: 0px 10px;
+}
+
+footer .social li a .fa {
+  font-size: 20px;
 }
 
 /*=============End Our Framework ==============*/

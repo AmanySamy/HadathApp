@@ -31,6 +31,28 @@ body{
                 color: #FFF;
                 margin: 30px 0;
             }
+            .social{
+                display: inline-block;
+                margin: 10px 20px;
+                li{
+                    list-style: none;
+                    display: inline-block;
+                    a{
+                        color: #662e91;
+                        border: 2px solid #662e91;
+                        width: 40px;
+                        height: 40px;
+                        display: inline-block;
+                        border-radius: 50%;
+                        text-align: center;
+                        line-height: 40px;
+                        margin: 0px 10px;
+                        .fa{
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
         }
         .right{
             background: url("../img/right.png") no-repeat;
@@ -55,12 +77,13 @@ footer{
     }
     .social{
         margin: 10px 0;
+        text-align: right;
         li{
             list-style: none;
             display: inline-block;
             a{
                 color: #FFF;
-                border: 1px solid #FFF;
+                border: 2px solid #FFF;
                 width: 40px;
                 height: 40px;
                 display: inline-block;
@@ -68,6 +91,9 @@ footer{
                 text-align: center;
                 line-height: 40px;
                 margin: 0px 10px;
+                .fa{
+                    font-size: 20px;
+                }
             }
         }
     }
